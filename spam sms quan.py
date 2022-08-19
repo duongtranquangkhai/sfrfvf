@@ -28,7 +28,7 @@ logo="""
                                  """      
 print(Colorate.Diagonal(Colors.red_to_yellow, Center.XCenter(logo)))      
 Write.Print('==========================================================================='+'\n' ,Colors.red_to_yellow, interval=0.005)
-Write.Print('Bản Quyền: Mai Văn Quân'+'\n' ,Colors.red_to_yellow, interval=0.005)
+Write.Print('Bản Quyền: Dương Trần Quang Khải'+'\n' ,Colors.red_to_yellow, interval=0.005)
 Write.Print('==========================================================================='+'\n' ,Colors.red_to_yellow, interval=0.005)
 ip = requests.get('https://api.ipify.org').text.strip()
 loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 'https://ip-api.com/', 'Content-Type': 'application/json; charset=utf-8', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36'}).json()['country_name'].lower()
